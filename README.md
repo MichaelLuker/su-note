@@ -1,9 +1,9 @@
 Single Use Note (SU-Note)
 
 SU-Note is a simple to set up server for secure note sharing.
-1  : Copy a real cert and key into the security folder
-1.5: Modify line 299 to read the new cert and key if they have different names / locations
-2  : Run the server 'go run server.go >> su-note.log 2>&1'
+- 1  : Copy a real cert and key into the security folder
+- 1.5: Modify line 299 to read the new cert and key if they have different names / locations
+- 2  : Run the server 'go run server.go >> su-note.log 2>&1'
 
 Here are some things to note:
 

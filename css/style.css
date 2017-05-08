@@ -1,0 +1,7 @@
+textarea {
+    resize: both;
+}
+
+#urlText #keyText{
+    font-weight: bold;
+}

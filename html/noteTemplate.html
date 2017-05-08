@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+    <head>
+        <title>SU-Note</title>
+        <link rel="stylesheet" type="/text/css" href="/css/style.css">
+        <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.png">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/scripts/unlockNote.js"></script>
+    </head>
+    <body>
+        <input type="hidden" id="noteID" value="NOTEURL">
+        <div>
+        <input type="text" id="key">
+        <input type="submit" value="Submit" onclick="unlockNote();">
+        </div>
+        <br />
+        <textarea id="noteContent" rows="24" cols="80" placeholder="Messages and the note content will appear here"></textarea>
+    </body>
+</html>

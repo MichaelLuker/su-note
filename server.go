@@ -247,7 +247,7 @@ func handleRequest(w http.ResponseWriter, r *http.Request) {
 	case "note":
 		// Make sure the file exists
 		if _, err := os.Stat(r.RequestURI[1:]); err != nil {
-			log.Print("Resource does not exist" + r.RequestURI)
+			log.Print("Resource does not exist " + r.RequestURI)
 			// Present the error page if it doesn't
 			returnDoc, _ := ioutil.ReadFile("html/errorPage.html")
 			io.WriteString(w, string(returnDoc))
